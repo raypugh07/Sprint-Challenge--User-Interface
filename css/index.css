@@ -71,12 +71,39 @@ p {
     margin: 0 auto;
 }
 
+.lamdalogo{
+    position: relative;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /*border: 1px solid;*/
+    
+    
+    
+}
+header nav a {
+    font-size: 14px;
+    color: black;
+    
+}
+
+.jumbo {
+    width: 100%;
+    height: 150px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 20px
 }
 
 .top-content .text-container {
@@ -88,6 +115,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -98,7 +126,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .middle-content .boxes .box {
@@ -111,7 +139,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+ #box1{
+     background: teal;
 
+
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
