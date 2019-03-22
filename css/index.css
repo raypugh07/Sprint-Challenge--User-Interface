@@ -238,3 +238,7 @@ footer nav a {
     position: relative;
     top: 20px;
 }
+.learnmore:hover {
+    background: black;
+    color: white;
+}
